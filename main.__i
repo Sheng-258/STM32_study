@@ -1,0 +1,6 @@
+-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c
+-fno-rtti -funsigned-char -fshort-enums -fshort-wchar
+-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../CORE -I ../STM32F10x_FWLib/inc
+-ID:/Users/ ¢√Œ¿⁄/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+-D__UVISION_VERSION="539" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER
+-o ../main.o -MD "main.c"
